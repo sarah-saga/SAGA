@@ -19,29 +19,26 @@
  * @package WordPress
  */
 
-// ** Database settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+// ** Réglages MySQL - Votre hébergeur doit vous fournir ces informations. ** //
+/** Nom de la base de données de WordPress. */
+define('DB_NAME', 'wordpress_db');
 
-/** Database username */
-define( 'DB_USER', 'username_here' );
+/** Utilisateur de la base de données MySQL. */
+define('DB_USER', 'root');
 
-/** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+/** Mot de passe de la base de données MySQL. */
+define('DB_PASSWORD', 'root');
 
-/** Database hostname */
-define( 'DB_HOST', 'agence-saga.fr' );
+/** Adresse de l’hébergement MySQL. */
+define('DB_HOST', 'localhost:8889');
 
-/** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
-
-/** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+/** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
+define('DB_CHARSET', 'utf8');
 
 /** Type de collation de la base de données.
   * N’y touchez que si vous savez ce que vous faites.
   */
-  /**define('DB_COLLATE', '');
+define('DB_COLLATE', '');
 
 /**#@+
  * Clés uniques d’authentification et salage.
