@@ -30,7 +30,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'root');
 
 /** Adresse de l’hébergement MySQL. */
-define('DB_HOST', 'agence-saga.fr');
+define('DB_HOST', 'localhost:8889');
 
 /** Jeu de caractères à utiliser par la base de données lors de la création des tables. */
 define('DB_CHARSET', 'utf8');
