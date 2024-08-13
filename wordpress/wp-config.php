@@ -41,7 +41,7 @@ define( 'DB_COLLATE', '' );
 /** Type de collation de la base de données.
   * N’y touchez que si vous savez ce que vous faites.
   */
-define('DB_COLLATE', '');
+  /**define('DB_COLLATE', '');
 
 /**#@+
  * Clés uniques d’authentification et salage.
